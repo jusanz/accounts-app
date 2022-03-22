@@ -3,8 +3,14 @@ Djangoのログイン用アプリです
 
 ## USAGE
 
-PROJECT_NAME/settings.py
-```python3:settings.py
+```shell
+git submodule add git@github.com:zoonaka/accounts-app.git accounts
+```
+
+
+```python3
+# PROJECT_NAME/settings.py
+
 ...
 INSTALLED_APPS = [
 ...
@@ -15,8 +21,10 @@ INSTALLED_APPS = [
 
 ```
 
-PROJECT_NAME/urls.py
-```python3:urls.py
+
+```python3
+# PROJECT_NAME/urls.py
+
 ...
 urlpatterns = [
     ...
